@@ -1,0 +1,443 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 30px;
+}
+div {
+  background-color: white;
+  width: 1700px;
+  border: 5px solid transparent;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+.box1 {
+  background-color: white;
+  width: 1400px;
+  height: 300px;
+  border: 5px solid transparent;
+  padding: 200px;
+  margin: 20px;
+  text-align: left;
+}
+.below {
+  padding: 50px;
+  border: 5px transparent;
+  width: 1000px;
+  margin-right: 500px;
+}
+p1 {
+  font-size: 50px;
+}
+.box2 {
+  background-color: white;
+  width: 600px;
+  height: 300px;
+  border: 5px solid transparent;
+  float: left;
+  padding: 200px;
+  margin: 20px;
+  text-align: left;
+  margin-top: -10px;
+}
+.help {
+  width: 1800px;
+  height: 1000px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 16px;
+}
+
+.column {
+  float: left;
+  width: 300px;
+  padding: 5px;
+  height: 300px;
+  border: 1px transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clearfix {
+  overflow: auto;
+}
+.row {
+  border: 1px transparent;
+}
+.nav {
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+  list-style: none;
+  margin: 35px;
+  text-align: center;
+  padding: 0 1%;
+  color: #808080;
+  font-weight: 500;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  padding: 01%;
+  color: #808080;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav a:hover {
+  border-bottom: red solid 1px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 75%;
+  height: 1150px;
+  text-align: center;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1 {
+  padding: 2px 16px;
+}
+.container {
+  background-color: white;
+  width: 1250px;
+  border: 5px solid transparent;
+  padding: 0px;
+  margin-left: -1px;
+  text-align: left;
+}
+.child {
+  border: 1px solid transparent;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding:50px;
+}
+.child1 {
+  border: 1px solid transparent;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding:30px;
+}
+* {
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu,
+  .main,
+  .right {
+    width: 100%;
+  }
+}
+.featured {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 25px;
+  text-align: left;
+  margin-left: -1px;
+  height: 100px;
+}
+
+.collection {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 50px;
+  text-align: right;
+  float: right;
+  margin-top: -110px;
+  margin-right: -1px;
+}
+.newsletter {
+  background-color: #f0f3f4;
+  width: 850px;
+  border: 5px solid  transparent;
+  padding: 30px;
+  float: right;
+  height: 195px;
+  margin-bottom: 10px;
+  
+}
+.newslettertitle{
+  background-color: #f0f3f4;
+  padding: 0px; 
+  border :5px solid  transparent;
+  margin-left: -5px;
+  width: 330px;
+  margin-top: 5px;
+  
+}
+.newsletterimg{
+  background-color: #f0f3f4;
+  border: 5px solid black;
+  width: 300px;
+  float: right;
+  margin-top: -80px;
+  padding:0px;   
+}
+.child1 {
+  border: 1px solid transparent;
+  float: left;
+  width: 50%;
+  margin-top: 30px;
+  padding: 50px;
+}
+.collectioninfo {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 25px;
+  text-align: left;
+  float: left;
+  margin-top: 110px;
+  margin-left: -1px;
+}
+.child:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.collectionimage {
+  background-color: white;
+  width: 1200px;
+  border: 5px solid transparent;
+  padding: 0px;
+  text-align: right;
+  float: right;
+  margin-top: 40px;
+  margin-left: 1px;
+  margin-right: -80px;
+  height: 550px;
+}
+.arrowimage {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 0px;
+  text-align: right;
+  float: right;
+  margin-top: 10px;
+  margin-right: 19px;
+}
+.collectionarea {
+  height: 950px;
+  width: 1850px;
+}
+.latest {
+  height: 1150px;
+  width: 1850px;
+}
+.latestimage {
+  background-color: white;
+  width: 2050px;
+  border: 5px solid transparent;
+  padding: 0px;
+  float: left;
+  height: 650px;
+  margin-left: -110px;
+  margin-top: 150px;
+}
+.footer {
+  height: 950px;
+  width: 1810px;
+}
+.googledesign {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border: 5px solid transparent;
+  padding: 25px;
+  text-align: left;
+  float: left;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+.googledesign2 {
+  background-color: white;
+  width: 200px;
+  height: 500px;
+  border: 5px solid transparent;
+  padding: 25px;
+  text-align: left;
+  float: right;
+  margin-top: -100px;
+  margin-right: -1100px;
+}
+
+.googledesign3 {
+  background-color: white;
+  width: 200px;
+  height: 500px;
+  border: 5px solid transparent;
+  padding: 25px;
+  text-align: left;
+  float: left;
+  margin-top: -400px;
+  margin-left: -400px;
+}
+.googleimage {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 50px;
+  text-align: right;
+  float: right;
+  margin-top: 600px;
+  margin-right: 845px;
+}
+.privacy {
+  background-color: white;
+  width: 600px;
+  border: 5px solid transparent;
+  padding: 50px;
+  text-align: right;
+  float: right;
+  margin-top: -130px;
+  margin-right: -250px;
+}
+.childre {
+  border: 1px solid transparent;
+  float: left;
+  width: 1400px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 225px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 20px;
+}
+.resourcescard1{
+border:1px solid transparent;
+  width:1000px;
+  height:350px;
+  float:right;
+  margin-top:-350px;
+  padding:0px;
+}
+
+.resourcescard2 {
+border:1px solid transparent;
+  width:1000px;
+  height:350px;
+  float:right;
+  margin-top:-330px;
+  padding:0px;
+}
+.childre:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.resourcesheader {
+  width: 1000px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 220px;
+  font-size: 30px;
+}
+.childsmall {
+  border: 1px solid transparent;
+  float: left;
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.childsmall:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.resourcessmall {
+  background-color: white;
+  width: 1600px;
+  height: 1950px;
+  border: 5px solid transparent;
+  padding: 5px;
+  text-align: left;
+  float: left;
+  margin-top: 90px;
+  margin-left: 250px;
+}
+.img1 {
+  width: 400px;
+  height: 350px;
+  margin-left: 2px;
+  margin-top: -9px;
+  padding: 0px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.aboutheader {
+  width: 900px;
+  margin-left: 300px;
+  text-align: left;
+  font-size: 35px;
+  margin-left: 300px;
+  margin-top: 125px;
+}
+.aboutimg {
+  margin-left: 50px;
+  padding: 0px;
+}
+.abouttext {
+  text-align: left;
+  margin-left: 300px;
+  padding: 0px;
+  font-size: 20px;
+}
+.indexgoogle {
+  padding: 0px;
+  margin-left: 90px;
+  border: 1px solid transparent;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.helpimg{
+  border:1px solid black;
+  width:500px;
+  float:left;
+  padding:0px;
+  margin-top:-55px;
+    border: 1px solid transparent;
+}
+.smallimg{
+  border:1px solid black;
+  width:100px;
+  padding:0px;
+  height:50px;
+  margin-left: 280px;
+  margin-top: 
+}
+.cardtext{
+  border :1px solid transparent;
+  width:300px;
+  padding:0px;
+  text-align: left;
+  margin-left:-20px;
+}
